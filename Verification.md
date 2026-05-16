@@ -1,6 +1,3 @@
-
----
-
 ### **6. `Verification.md`**
 
 ```markdown
