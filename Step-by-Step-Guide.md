@@ -59,3 +59,14 @@
 ```powershell
 nslookup rubastorageprod.blob.core.windows.net
 nslookup rubastorageprod.file.core.windows.net
+
+### STEP 14 — Lifecycle Management
+
+1. Go to Storage Account → **Data management** → **Lifecycle management**
+2. Click **+ Add a rule**
+3. Rule name: `old-backups-to-cool`
+4. Condition: Last modified > 30 days
+5. Action: Move to **Cool storage tier**
+6. Click **Add**
+
+> This helps automatically reduce storage costs.
