@@ -59,7 +59,7 @@
 ```powershell
 nslookup rubastorageprod.blob.core.windows.net
 nslookup rubastorageprod.file.core.windows.net
-
+``
 ### STEP 14 — Lifecycle Management
 
 1. Go to Storage Account → **Data management** → **Lifecycle management**
